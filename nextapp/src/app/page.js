@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { useState } from 'react'
 
-export default function Home() {
+/* export default function Home() {
   const [name, setName] = useState("Shankar");
   const apple = (item) => {
     setName("Pirate")
@@ -13,5 +13,12 @@ export default function Home() {
       <button onClick={() => apple()}>Click Me</button>
     </main>
   )
-}
+} */
 
+export default function Page(){
+  return(
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <h1>Basic Routing | Make New Page</h1>
+    </main>
+  )
+}
